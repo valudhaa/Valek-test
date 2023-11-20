@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MegaBusters</title>
+    <style>      
+    </style>
+     <link rel="stylesheet" href="./css/style.css">
  </head>
  <body>
    <header>
-
-        <img src="./Images/megabust.svg" alt="Логотип мега бустерів" style="margin-right: 40px;">
-    <nav>
-        
-        <a href="#"> 
-            </a>
+    <nav class="nav">
+               <a href="/"><img src="./Images/megabust.svg" alt="Логотип мега бустерів" style="margin-right: 40px;">
+        </a>
         <ul>       
-            <li> <a href="#"> Найкращі бустери </a></li>
-            <li> <a href="#"> Найвишчі ціни на ринку </a></li>
-            <li> <a href="#"> Не досвідчена та не вічлива команда </a></li>
-            <li> <a href="#"> Не корисна та не якісна інформація </a></li>      
+            <li><a href="#Owr-buscters" class="nav__link">Найкращі бустери</a></li>
+            <li><a href="#Busters" class="nav__link">Не досвідчена та не вічлива команда</a></li>
+            <li><a href="#Coust-bust" class="nav__link">Найвишчі ціни на ринку</a></li>
+            <li><a href="#Ratio" class="nav__link">Не корисна та не якісна інформація</a></li>      
         </ul>
     </nav>
     <style>
@@ -42,10 +42,10 @@
                 document.body.classList.toggle('dark-theme');
             }
         </script>
-    <button style="color: blueviolet;" type="button">Замовити буст </button>
-    <button><a href="./Proba.html">Перейти на іншу сторінку</a></button>
+    <button  style="color: blueviolet;"  type="button">Замовити буст </button>
+    <button class="buttons"><a href="./Proba.html" class="buttons__link">Перейти на іншу сторінку</a></button>
             <section>
-                <img style="margin-left: 950px;" style="margin-top: 40px;"  src="./Images/contora.svg" alt="Буст контора">
+                <h6><img style="margin-left: 700px;" style="margin-top: 40px;" src="./Images/contora.svg" alt="Буст контора"></h6>
             </section>
    </header>
    <main>
@@ -59,11 +59,14 @@
             <h2><li>Чому саме ми</li></h2>
         </ul>
         <p>Тому що саме мы можемо злити тобі рейтинг, якісно, та швидко</p>
+        <video controls loop autoplay muted>
+        <source src="./photo/Пацан совсем поехал головой и начал крутиться на стуле под крик_ УБИВАТЬ.mp4"> </video>
         <img src="./Images/pacan.jpg" alt="Наш маленький клієнт не може зрозуміти чому в нього п'ять бомжів">
-        <p>Фото задоволеного клієнта)</p>
+        <p>Фото та відео задоволеного клієнта)</p>
     </section>
-        <section>
-            <h1>Поради від наших бустерів</h1>
+    <section id="Owr-buscters">
+            
+            <h1>Поради, від наших бустерів та знайомство із ними</h1>
             <ul>
                 <li><article>
                     <p><span>Денис.</span></p>
@@ -91,8 +94,8 @@
                     <p>Порада: Коли тверезий на коні, коли ні, то під конем</p>
                 </article></li>
             </ul>                  
-        </section>
-    <section>
+    </section>
+    <section id="Busters">
        <h2>Наші бустери</h2>   
        <ul>
         <li><article>
@@ -140,13 +143,13 @@
             </h3>
             <h4>Просто напівфабрика</h4>
             <h5>убожество 4, в минулому титан, гагагагаг</h5>
-            <h5>5100 ммра</h5>
+            <h5>5200 ммра</h5>
             <p>Дуже токсична атмосфера, дебустить тіки так, хочете, щоб на вас кричали, а птси падали в низ, ласкаво просимо до
                 Дениса</p>
         </article></li>
        </ul>  
     </section>
-    <section>
+    <section id="Coust-bust" >
         <h2>Вартість бусту</h2>
         <ul>
             <li><article>
@@ -183,7 +186,7 @@
             </article></li>
         </ul>            
     </section>
-    <section>
+    <section id="Ratio">
        <h2>Співвідношення рангу та рейтинга</h2>
         <p>Яка тобі різниця, дибіл)</p>
         <ul>
@@ -229,29 +232,30 @@
     </section>
     </main>
     <footer>
-        <nav>
-            <a href="#">
-                        <img src="./Images/megabust.svg" alt="Логотип мега бустерів" style="margin-right: 40px;">
+        <nav class="navig">
+            <a href="#" class="navig__link">
+            <img src="./Images/megabust.svg" alt="Логотип мега бустерів" style="margin-right: 40px;">
             </a>
             <ul>
-                <li> <a href="#"> Рекомендації </a></li>
-                <li> <a href="#"> Ціни </a></li>
-                <li> <a href="#"> Бустери </a></li>
-                <li> <a href="#"> Контакти </a></li>
+                <li> <a href="#" class="navig__link"> Рекомендації </a></li>
+                <li> <a href="#" class="navig__link"> Ціни </a></li>
+                <li> <a href="#" class="navig__link"> Бустери </a></li>
+                <li> <a href="#" class="navig__link"> Контакти </a></li>
             </ul>
         </nav>
-<address>
+<address class="Inform">
     <ul>
-        <li><a href="tel:+380997705950">+ 38 (099) 770 59 50  </a></li>
-        <li><a href="mailto: sdff37470@gmail.com">sdff37470@gmail.com</a></li>
-        <li><a href="https://www.google.com/maps/place/Storgata+32,+0184+Oslo,+Норвегія/@59.9138777,10.7510145,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e61976040e7:0x89f3ac617c417eef!8m2!3d59.9136967!4d10.7536519!16s%2Fg%2F11hbw2x32c?hl=uk-UK&entry=ttu" target="_blank">Storgata 32, 0184 Oslo, Норвегія</a></li>
-        <li><a href="https://instagram.com/valinok_322?igshid=MmxiOTNtcTNoaWg=" target="_blank">https://instagram.com/valinok_322?igshid=MmxiOTNtcTNoaWg=</a></li>
-        <li><a href="https://t.me/valekparenek" target="_blank">https://t.me/valekparenek</a></li>       
+        <li><a href="tel:+380997705950" class="inform__menu">+ 38 (099) 770 59 50  </a></li>
+        <li><a href="mailto: sdff37470@gmail.com" class="inform__menu">sdff37470@gmail.com</a></li>
+        <li><a href="https://www.google.com/maps/place/Storgata+32,+0184+Oslo,+Норвегія/@59.9138777,10.7510145,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e61976040e7:0x89f3ac617c417eef!8m2!3d59.9136967!4d10.7536519!16s%2Fg%2F11hbw2x32c?hl=uk-UK&entry=ttu" target="_blank" class="inform__menu">Storgata 32, 0184 Oslo, Норвегія</a></li>
+        <li><a href="https://instagram.com/valinok_322?igshid=MmxiOTNtcTNoaWg=" target="_blank" class="inform__menu">https://instagram.com/valinok_322?igshid=MmxiOTNtcTNoaWg=</a></li>
+        <li><a href="https://t.me/valekparenek" target="_blank" class="inform__menu">https://t.me/valekparenek</a></li>       
     </ul>
     <a href="# " target="_blank">Політика конфідиційності</a>
-    <p>® 2023 данні захищені</p>
+    <p>&copy; 2023 данні захищені</p>
 </address>
     </footer>
  </body>
  </html>
  <a href=""></a>
+ 
